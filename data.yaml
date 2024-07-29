@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['20km_hiz', '30km_hiz', 'done_kavsak', 'dur', 'durak', 'ileri_saga_mecburiyon', 'ileri_sola_mecburiyon', 'kirmizi_isik', 'park', 'park_edilmez', 'saga_donulmez', 'sola_donulmez', 'yaya_gecidi', 'yesil_isik']
+
+roboflow:
+  workspace: medine
+  project: trafik_isaretleri-nymvb
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/medine/trafik_isaretleri-nymvb/dataset/2
